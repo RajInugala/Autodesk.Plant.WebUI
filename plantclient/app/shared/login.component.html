@@ -1,0 +1,13 @@
+﻿
+<md-toolbar>
+    <span>Plant Collaboration WebUI</span>
+    <span class="plant-spacer"></span>
+    <div *ngIf="isUserLoggedIn">
+        <md-icon class="example-icon">account_circle</md-icon>
+    </div>
+    <div *ngIf="!isUserLoggedIn">
+        <a href="https://developer.api.autodesk.com/authentication/v1/authorize?response_type=code&client_id=Pe9pXeA6YYAUzJGmE4TzsHg1K15D9QBX&redirect_uri=http%3A%2F%2Flocalhost:1337%2Foauth2%2Fcallback&scope=data:read">
+            <md-icon class="example-icon">cloud_off</md-icon>
+        </a>
+    </div>
+</md-toolbar>

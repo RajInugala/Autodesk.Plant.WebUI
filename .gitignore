@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.suo
+/bin
+/node_modules
+/obj
+plantclient/node_modules
+typings
+plantclient/app/**/*.js
+plantclient/app/**/*.js.map
+npm-debug.log*
+main.js*
+.DS_store
+.idea
+.suo
+applicationhost.config
